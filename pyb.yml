@@ -1,5 +1,0 @@
-
-# pyb.yml
-# This is the PyBundle configuration file.
-name: tftrainer # Project name
-script: tftrain # Main script path (for 'pyb run')
