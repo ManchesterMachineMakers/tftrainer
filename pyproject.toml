@@ -1,3 +1,15 @@
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "tftrainer"
+version = "0.0.1"
+dependencies = [
+    "tensorflow >= 2.11.0",
+    "numpy >= 1.22",
+    "pillow >= 9"
+]
+
+[project.scripts]
+tftrainer = "tftrainer:main"
